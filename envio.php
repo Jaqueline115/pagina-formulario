@@ -1,5 +1,5 @@
 <?php
-$destino = "18315014@utfv.edu.mx";
+$destino = "suzukiakiro26@gmail.com";
 $nombre = $_post["nombre"];
 $apellido_p = $_post["apellido paterno"];
 $apellido_m = $_post["apellido materno"];
