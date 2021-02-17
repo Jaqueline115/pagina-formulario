@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULARIO DE DATOS</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<header class="cabezera">
+		<div class="titulo_t"><h2 class="nom_logo">Formulario de Datos</h2></div>
+		<div class="cab_nav">
+			<img src="img/logo.png" alt="logo" class="logo_png">
+			<nav>
+				<a href="">INICIO</a>
+				<a href="">ACERCA DE</a>
+				<a href="">SERVICIOS</a>
+				<a href="">CONTACTO</a>
+			</nav>
+		</div>
+	</header>
+	<br>
+	<br>
+	<br>
+	    <div class="contenedor">
+	    	<h2 class="titulo">Información de la Pagina</h2>
+	    	<p><span class="parrafo_cont">Esta pagina esta siendo realizada por la alumna Jaqueline Galván Rivera, estudiante de la Universidad Tecnologica Fidel Velazquez de la carrera de Licenciatura en Diseño Digital y Producción Audiovisual.
+	    	En esta pagina se puede encontrar un formulario el cual se puede resolver y la información de este se puede enviar.</span></p>
+	    </div>
+	    <br>
+	    <br>
+	    <div class="contenedor2">
+	    	<h2 class="f_f">Formulario</h2>
+	    	<p><span class="parrafo_cont2">Leer con atención y llenar los campos con la información que se solicita.</span></p>
+	    	<br>
+	    	   <form name="form1" method="post" action="envio.php">
+	    	   	<label for="nombre">Ingresa tu Nombre</label>
+	    	   	<input type="text" name="nombre" id="nombre">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="apellido paterno">Ingresa tu Apellido Paterno</label>
+	    	   	<input type="text" name="apellido_p" id="apellido_p">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="apellido materno">Ingresa tu Apellido Materno</label>
+	    	   	<input type="text" name="apellido_m" id="apellido_m">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="fecha de nacimiento">Ingresa tu fecha de Nacimiento</label>
+	    	   	<input type="date" name="fecha_n" id="fecha_n">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="genero">Ingresa tu Genero</label>
+	    	   	    Mujer <input type="radio" name="Genero" value="f">
+            	    Hombre <input type="radio" name="Genero" value="f">
+	    	   	<br>
+	    	   	<br>
+	    	   	<label for="profesion">Ingresa tu Profesión</label>
+	    	   	<input type="text" name="profesion" id="profesion">
+	    	   	<br>
+	    	   	<br>
+	    	   	<td>Estado</td>
+                            <td>
+                                <select Name="Estado">
+                                 <option value="Estado"></option>
+                	             <option value="Estado"> CDMX</option>
+                	             <option value="Estado"> ESTADO DE MEXICO</option>
+                	             <option value="Estado"> JALISCO</option>
+                	             <option value="Estado"> NUEVO LEON</option>
+                	             <option value="Estado"> GUERRERO</option>
+                	             <option value="Estado"> OTRO</option>
+                                </select>
+                            </td>
+                <br>
+                <br>
+                <tr>
+            	<td>Cometarios</td>
+            	<td><textarea rows="3" name="Cometarios"></textarea></td>
+            </tr>            
+                <br>
+                <br>
+	    	   	<input type="submit" name="Enviar" value="enviar">
+	    	   </form>
+	    </div>
+	    <br>
+	    <br>
+        <footer class="foot">
+	    	<p class="foot_p">Pagina Web realizada por JGR &copy</p>
+	    </footer>
+	    <video src="img/b1.mp4" autoplay loop muted class="video"></video>
+</body>
+</html>
